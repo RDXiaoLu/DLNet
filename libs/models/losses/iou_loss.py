@@ -57,7 +57,7 @@ class CLRNetIoULoss(torch.nn.Module):
 
 
 @LOSSES.register_module
-class LaneIoULoss(CLRNetIoULoss):
+class DLIoULoss(CLRNetIoULoss):
     def __init__(self, loss_weight=1.0, lane_width=7.5 / 800):
         """
         LaneIoU loss employed in CLRerNet.
@@ -65,7 +65,7 @@ class LaneIoULoss(CLRNetIoULoss):
             weight (float): loss weight.
             lane_width (float): half virtual lane width.
         """
-        super(LaneIoULoss, self).__init__(loss_weight, lane_width)
+        super(DLIoULoss, self).__init__(loss_weight, lane_width)
         self.max_dx = 1e4
 
     def _calc_lane_width(self, pred, target, eval_shape):
