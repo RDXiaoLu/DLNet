@@ -33,6 +33,8 @@ python tools/train.py configs/dlnet/culane/dlnet_culane_dla34.py
 * [CULane Dataset](https://xingangpan.github.io/projects/CULane.html)
 * [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection)
 * [open-mmlab/mmcv](https://github.com/open-mmlab/mmcv)
-* 
+
 ## Acknowledgments  
-We would like to express our sincere gratitude to the developers of [**CLRerNet**](https://github.com/hirotomusiker/CLRerNet.git) for their invaluable contributions to the field. Our core improvements can be easily integrated into the CLRerNet framework, enhancing its capabilities for lane detection tasks. Additionally, we thank the **CULane** and **CurveLanes** teams for providing their datasets, which were essential for our research on lane detection.
+* We would like to express our sincere gratitude to the developers of [**CLRerNet**](https://github.com/hirotomusiker/CLRerNet.git) for their invaluable contributions to the field.
+*  Our core improvements can be easily integrated into the CLRerNet framework, enhancing its capabilities for lane detection tasks.
+*  We thank the [**CULane**](https://github.com/SoulmateB/CurveLanes.git) and [**CurveLanes**](https://github.com/SoulmateB/CurveLanes.git) teams for providing their datasets, which were essential for our research on lane detection.
