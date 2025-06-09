@@ -1,9 +1,8 @@
 # DLNet: Direction-Aware Feature Integration for Robust Lane Detection in Complex Environments
-
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dlnet-direction-aware-feature-integration-for/lane-detection-on-culane)](https://paperswithcode.com/sota/lane-detection-on-culane?p=dlnet-direction-aware-feature-integration-for)
 ## Description
 
 Code for the paper "DLNet: Direction-Aware Feature Integration for Robust Lane Detection in Complex Environments". Zhaoxuan Lu, Lyuchao Liao, Ruimin Li, Fumin Zou, Sijing Cai and Guangjie Han. The paper is submitted to IEEE Transactions on Intelligent Transportation Systems.
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dlnet-direction-aware-feature-integration-for/lane-detection-on-culane)](https://paperswithcode.com/sota/lane-detection-on-culane?p=dlnet-direction-aware-feature-integration-for)
 
 ## DLNet
 
