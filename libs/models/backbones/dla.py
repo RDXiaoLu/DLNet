@@ -93,12 +93,7 @@ class LaneBasicBlock(nn.Module):
         self.conv2 = RAB(
             planes,
             planes,
-            # planes,
-            # kernel_size=3,
-            # stride=1,
-            # padding=dilation,
-            # # bias=False,
-            # dilation=dilation,
+   
         )
         self.bn2 = nn.BatchNorm2d(planes, momentum=BN_MOMENTUM)
         self.stride = stride
