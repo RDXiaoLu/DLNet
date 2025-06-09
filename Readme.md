@@ -23,7 +23,7 @@ python tools/train.py configs/dlnet/curvelanes/dlnet_curvelanes_dla34.py
 ## References
 * [Hirotomusiker/CLRerNet](https://github.com/hirotomusiker/CLRerNet.git)
 * [Turoad/CLRNet](https://github.com/Turoad/CLRNet/)
-* [SoulmateB/CurveLanes](https://github.com/SoulmateB/CurveLanes.git)
+* [CurveLanes Dataset](https://github.com/SoulmateB/CurveLanes.git)
 * [CULane Dataset](https://xingangpan.github.io/projects/CULane.html)
 * [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection)
 * [open-mmlab/mmcv](https://github.com/open-mmlab/mmcv)
