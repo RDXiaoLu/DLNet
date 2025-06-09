@@ -5,11 +5,11 @@ from torch import nn
 
 
 @PRIOR_GENERATORS.register_module()
-class CLRerNetAnchorGenerator(nn.Module):
+class DLNetAnchorGenerator(nn.Module):
     """
     Anchor (prior) generator.
     Adapted from:
-    https://github.com/Turoad/CLRNet/blob/main/clrnet/models/heads/clr_head.py
+    https://github.com/hirotomusiker/CLRerNet/blob/libs/core/anchor/anchor_generator.py
     """
 
     def __init__(
@@ -22,7 +22,7 @@ class CLRerNetAnchorGenerator(nn.Module):
             num_priors (int): Number of anchors.
             num_points (int): Number of points (rows) in one anchor.
         """
-        super(CLRerNetAnchorGenerator, self).__init__()
+        super(DLNetAnchorGenerator, self).__init__()
         self.num_priors = num_priors
         self.num_offsets = num_points
         self.prior_embeddings = nn.Embedding(self.num_priors, 3)
