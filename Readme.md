@@ -38,4 +38,4 @@ python tools/train.py configs/dlnet/culane/dlnet_culane_dla34.py
 ## Acknowledgments  
 * We would like to express our sincere gratitude to the developers of [**CLRerNet**](https://github.com/hirotomusiker/CLRerNet.git) for their invaluable contributions to the field.
 
-*  We thank the [**CULane**](https://github.com/SoulmateB/CurveLanes.git) and [**CurveLanes**](https://github.com/SoulmateB/CurveLanes.git) teams for providing their datasets, which were essential for our research on lane detection.
+*  We thank the [**CULane**](https://github.com/SoulmateB/CurveLanes.git) , [**CurveLanes**](https://github.com/SoulmateB/CurveLanes.git) and [**TUSimple**](https://github.com/TuSimple/tusimple-benchmark.git) teams for providing their datasets, which were essential for our research on lane detection.
