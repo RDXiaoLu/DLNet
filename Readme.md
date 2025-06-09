@@ -20,6 +20,12 @@ Run the following command to train a model on Curvelanes dataset:
 python tools/train.py configs/dlnet/curvelanes/dlnet_curvelanes_dla34.py
 ```
 
+Run the following command to train a model on CULane dataset:
+
+```bash
+python tools/train.py configs/dlnet/culane/dlnet_culane_dla34.py
+```
+
 ## References
 * [Hirotomusiker/CLRerNet](https://github.com/hirotomusiker/CLRerNet.git)
 * [Turoad/CLRNet](https://github.com/Turoad/CLRNet/)
