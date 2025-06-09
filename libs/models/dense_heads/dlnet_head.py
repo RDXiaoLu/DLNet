@@ -1,6 +1,6 @@
 """
 Adapted from:
-https://github.com/Turoad/CLRNet/blob/main/clrnet/models/heads/clr_head.py
+https://github.com/hirotomusiker/CLRerNet/blob/libs/models/dense_heads/clrernet_head.py
 """
 import numpy as np
 import torch
@@ -18,7 +18,7 @@ from libs.utils.lane_utils import Lane
 
 
 @HEADS.register_module
-class CLRerHead(nn.Module):
+class DLHead(nn.Module):
     def __init__(
         self,
         anchor_generator,
@@ -37,7 +37,7 @@ class CLRerHead(nn.Module):
         train_cfg=None,
         test_cfg=None,
     ):
-        super(CLRerHead, self).__init__()
+        super(DLHead, self).__init__()
         self.anchor_generator = build_prior_generator(anchor_generator)
         self.img_w = img_w
         self.img_h = img_h
@@ -384,8 +384,8 @@ class CLRerHead(nn.Module):
             "loss_cls": cls_loss,
             "loss_reg_xytl": reg_xytl_loss,
             "loss_iou": iou_loss,
-            'loss_DLiou': DLiou_loss,
-            'loss_DRiou': DRiou_loss
+            'loss_DLiou': DLiou_loss,        ## DL-IoU part of left
+            'loss_DRiou': DRiou_loss         ## DL-IoU part of right
             
         }
 
