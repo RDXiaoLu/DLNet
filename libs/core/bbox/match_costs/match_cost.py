@@ -1,7 +1,7 @@
 import torch
 from mmdet.core.bbox.match_costs.builder import MATCH_COST
 
-from libs.models.losses import LaneIoULoss
+from libs.models.losses import DLIoULoss
 
 
 @MATCH_COST.register_module()
@@ -134,7 +134,7 @@ class CLRNetIoUCost:
 
 
 @MATCH_COST.register_module()
-class LaneIoUCost(CLRNetIoUCost, LaneIoULoss):
+class DLIoUCost(CLRNetIoUCost, LaneIoULoss):
     def __init__(
         self,
         weight=1.0,
@@ -152,7 +152,7 @@ class LaneIoUCost(CLRNetIoUCost, LaneIoULoss):
             use_giou (bool): GIoU-style calculation that allows
                negative overlap when the lanes are separated
         """
-        super(LaneIoUCost, self).__init__(weight, lane_width)
+        super(DLIoUCost, self).__init__(weight, lane_width)
         self.use_pred_start_end = use_pred_start_end
         self.use_giou = use_giou
         self.max_dx = 1e4
