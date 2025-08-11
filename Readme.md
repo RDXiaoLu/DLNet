@@ -30,7 +30,7 @@ python tools/train.py configs/dlnet/culane/dlnet_culane_dla34.py
 Run the following command to train a model on TUsimple dataset:
 
 ```bash
-python tools/train.py configs/dlnet/culane/dlnet_tusimple_dla34.py
+python tools/train.py configs/dlnet/tusimple/dlnet_tusimple_dla34.py
 ```
 
 ## References
