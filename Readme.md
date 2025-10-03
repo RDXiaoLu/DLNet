@@ -33,6 +33,22 @@ Run the following command to train a model on TUsimple dataset:
 python tools/train.py configs/dlnet/tusimple/dlnet_tusimple_dla34.py
 ```
 
+## 🔍 Citation 
+
+If you find our work useful, please consider citing us or giving us a star ⭐. 
+
+```markdown 
+
+@article{lu2025dlnet,
+  title={DLNet: Direction-Aware Feature Integration for Robust Lane Detection in Complex Environments},
+  author={Lu, Zhaoxuan and Liao, Lyuchao and Li, Ruimin and Zou, Fumin and Cai, Sijing and Han, Guangjie},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2025},
+  publisher={IEEE}
+}
+
+```
+
 ## References
 * [Hirotomusiker/CLRerNet](https://github.com/hirotomusiker/CLRerNet.git)
 * [Turoad/CLRNet](https://github.com/Turoad/CLRNet/)
